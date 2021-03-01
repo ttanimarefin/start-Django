@@ -4,6 +4,6 @@ from .import views
 
 urlpatterns = [
     path('', views.employee),
-    path('profile/', views.profile),
+    path('profile/', views.profile,name='employeeprofile'),
     
 ]
